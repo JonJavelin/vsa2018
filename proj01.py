@@ -8,6 +8,7 @@
 #Then, it prints out a sentence that says the number of years until they graduate.
 print "Hello"
 name = raw_input("What is your name?")
+name = name[0].upper() + name[1:].lower()
 grade = int(raw_input("What grade are you in?"))
 High_school = 12
 graduate = High_school - grade
@@ -15,11 +16,9 @@ print "You will graduate from High_school in" + str(graduate)
 # Part II:
 # This program asks the user for his/her name and birth month.
 # Then, it prints a sentence that says the number of days and months until their birthday
-print "Hello"
-name = raw_input("What is your name?")
 month = int(raw_input("What month were you born in?"))
 month = month[0].upper() + month[1:].lower()
-day = int(raw_input[("What day in ") + month ("were you born in?")])
+day = (raw_input[("What day in ") + month ("were you born in?")])
 Month = raw_input("What month is it now?")
 Month = Month[0].upper() + Month[1:].lower
 Day = raw_input("What day in") + Month ("is it right now?")
@@ -48,7 +47,7 @@ elif Month == "October":
     Month_num = 10
 elif Month == "November":
     Month_num = 11
-else Month_num = 12
+else: Month_num = 12
 
 if month == "January":
     month_num = 1
@@ -72,11 +71,19 @@ elif month == "October":
     month_num = 10
 elif month == "November":
     month_num = 11
-else month_num = 12
+else: month_num = 12
+
 moNTH = (month + 11) * 30
 if month == Month and day<Day:
     moNTH - dAY
-print "Your Birthday is in" +
+elif month > Month:
+    month - Month
+elif month < Month:
+    elif day > Day:
+    day -Day
+
+    print "Your Birthday is the" +_ "of" +_ "!"
+
 
 
 # If you complete extensions, describe your extensions here!
